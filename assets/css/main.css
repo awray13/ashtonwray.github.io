@@ -79,7 +79,7 @@ input, select, textarea {
 
 	body {
 		background: #ddd;
-		color: #5b5b5b;
+		color: #575757;
 		font-size: 15pt;
 		line-height: 1.85em;
 		font-family: 'Source Sans Pro', sans-serif;
@@ -97,9 +97,9 @@ input, select, textarea {
 			transition: none !important;
 		}
 
-		/* span .text-secondary {
-			color:  #7B4181;
-		} */
+		span.text-secondary {
+			color: #09ccda;
+		} 
 
 	input, textarea, select {
 		font-size: 15pt;
@@ -157,7 +157,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #7B4181;
+			color: #09ccda;
 			border-bottom-color: transparent;
 		}
 
@@ -1903,7 +1903,7 @@ input, select, textarea {
 				margin-left: 0;
 			}
 
-/* Icons */
+/* Footer Icons */
 
 	ul.icons {
 		position: relative;
@@ -1932,9 +1932,9 @@ input, select, textarea {
 				border: 0;
 				color: inherit;
 			}
-
+				/* Color for hover for icons in footer links */
 				ul.icons li a:hover {
-					color: #7B4181;
+					color: #09ccda;
 				}
 
 	p.icons {
@@ -2062,7 +2062,8 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #6e2e75;
+		/* Background for Start Button */
+		background: #483949af; 
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2084,7 +2085,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #461E4B;
+			background: #09ccda;
 		}
 
 		input[type="button"].alt,
@@ -2169,7 +2170,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/background3.jpg"); 
+		background-image: url("../../images/background2.jpg"); 
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2316,6 +2317,10 @@ input, select, textarea {
 				right: 100%;
 				margin-right: 1px;
 			}
+			/* Hover color for top nav bar links */
+			#nav > ul > li > a:hover {
+				color: #09ccda;
+			}
 
 			#nav > ul > li {
 				display: inline-block;
@@ -2369,7 +2374,7 @@ input, select, textarea {
 			}
 
 			.dropotron li:hover {
-				color: #7B4181;
+				color: #09ccdab2;
 			}
 
 			.dropotron li a, .dropotron li span {
@@ -2542,7 +2547,7 @@ input, select, textarea {
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: rgba(70, 30, 75, 0.75);
+				background-color: #09ccdab2;
 			}
 
 		.carousel .forward {
